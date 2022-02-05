@@ -1,0 +1,78 @@
+body{
+	background-color:
+	padding-top:1rem;
+	padding-right: 20rem;
+	padding-left: 20rem;
+	padding-bottom:1rem;
+}
+.nav-links {
+position: fixed;
+display:flex;
+float:right;
+grid-gap: 10px;
+}
+.nav1 {
+	background-color:#1f2136;
+	color: #f6d8ac;
+	padding:20px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.left-content{
+	float: right;
+	padding-left:20rem;
+	padding:2rem;
+	color: white;
+}
+.right-content{
+	display:flex;
+	float:left;
+	padding-right: 10rem;
+	position:static;
+
+}
+#main{
+	align-content:center;
+	padding:5rem 6rem;
+	background-color: #23253a;
+	display: grid;
+	grid-template-columns: auto auto;
+	}
+.Aboutme{
+           background-color: #1f2235;
+           text-align:center;
+	}
+#About{
+	color: white;
+}
+#skills{
+	padding:1px 10px 1px 5rem;
+	box-sizing:border-box;
+}
+.list{
+	color:white;
+}
+.main2{
+	align-content:center;
+	padding:2rem 2rem;
+	background-color:#1f2235;
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+#services{
+ padding-left:20rem;
+}
+#contact{
+	background-color: #1f2235;
+	text-align: center;
+}
+footer{
+	padding:1rem;
+	color:white;
+}
+
+@media only screen and (max-width:700px){
+
+}
